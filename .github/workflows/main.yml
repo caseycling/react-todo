@@ -16,3 +16,4 @@ jobs:
                   browser: chrome
                   build: npm run build
                   start: npm start
+                  parallel: true
