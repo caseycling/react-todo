@@ -1,7 +1,7 @@
 context("Actions", () => {
     //Visit address before each action and assertion
     beforeEach(() => {
-        cy.visit("http://localhost:3000/");
+        cy.visit("https://simplest-react-todo-app.herokuapp.com/");
     });
 
     it("Types into a DOM element", () => {
