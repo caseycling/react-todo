@@ -1,9 +1,12 @@
+// import {mount} from '@cypress/react'
+
 context("Actions", () => {
     //Visit address before each action and assertion
     beforeEach(() => {
         cy.visit("https://simplest-react-todo-app.herokuapp.com/");
     });
 
+    //New comment
     it("Types into a DOM element", () => {
         cy.get(".form-control")
             .type("Sample item")
